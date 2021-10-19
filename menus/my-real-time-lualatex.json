@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle my-real-time-lualatex",
+        "command": "my-real-time-lualatex:insert"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "my-real-time-lualatex",
+          "submenu": [
+            {
+              "label": "insert",
+              "command": "my-real-time-lualatex:insert"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
